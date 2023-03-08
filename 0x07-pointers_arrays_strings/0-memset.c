@@ -10,6 +10,7 @@
  * Return: A pointer to the filled memory area @s.
 */
 
+char *_memset(char *s, char b, unsigned int n)
 void *_memset(void *s, int c, size_t n)
 {
 	unsigned int index;
